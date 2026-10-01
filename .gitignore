@@ -1,0 +1,47 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+
+# Secretos y configuración local — NUNCA subir al repo
+appsettings.Development.json
+appsettings.Local.json
+appsettings.Production.json
+*.pfx
+*.p12
+
+# Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+Frontend/node_modules/
+Frontend/.next/
+Frontend/out/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+Frontend/.env.local
+Frontend/.env.development.local
+Frontend/.env.test.local
+Frontend/.env.production.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker — volúmenes locales
+postgres_data/
+
+# Claude Code — estado interno de la herramienta
+.claude/

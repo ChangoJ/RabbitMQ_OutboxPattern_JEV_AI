@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="MessageGuard.Api/MessageGuard.Api.csproj" />
+  <Project Path="MessageGuard.Application/MessageGuard.Application.csproj" />
+  <Project Path="MessageGuard.Domain/MessageGuard.Domain.csproj" />
+  <Project Path="MessageGuard.Infrastructure/MessageGuard.Infrastructure.csproj" />
+  <Project Path="MessageGuard.Tests/MessageGuard.Tests.csproj" />
+</Solution>
